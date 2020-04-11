@@ -1,0 +1,8 @@
+.top-nav.open{
+    top: 0;
+    border-radius: initial;
+}
+
+.menu-toggler.open{
+    transform: rotate(-45deg);
+}

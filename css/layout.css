@@ -1,0 +1,34 @@
+
+/*---------HEADER-START--------*/
+
+header{
+    width: 100%;
+    height: 100vh;
+}
+
+img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*---------HEADER-END--------*/
+
+.container{
+    width: 90%;
+    max-width: 120rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*---------HEADER-START--------*/
+
+
+/*---------HEADER-END--------*/

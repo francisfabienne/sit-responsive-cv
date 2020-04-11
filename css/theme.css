@@ -1,0 +1,147 @@
+body{
+    background-color:  #16162d;
+}
+
+/*---------HEADER-START--------*/
+
+.top-nav{
+    background-color:  #16162d; 
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    background: linear-gradient(to top, #ffe838, #fd57bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bar{
+    background: linear-gradient(to right, #ffe838, #fd57bf);
+}
+
+.landing-text h1{
+    background: linear-gradient(to top, #ffe838, #fd57bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*---------HEADER-END--------*/
+
+
+/*---------ABOUT-START--------*/
+
+.fa-facebook-square:hover{
+    color: #4267b2
+}
+
+.fa-twitter-square:hover{
+    color: #38a1f3
+}
+
+.fa-linkedin-in:hover{
+    color: #4267b2
+}
+/*---------ABOUT-END--------*/
+
+
+
+/*---------SERVICE-START--------*/
+
+   
+
+/*---------SERVIVE-END--------*/
+
+
+
+/*---------PORTFOLIO-START--------*/
+
+.portfolio-description .cta{
+    color: #3683ff;
+}
+
+.portfolio-description .cta:hover{
+    color: #2f67cd;
+}
+/*---------PORTFOLIO-END--------*/
+
+
+
+/*--------EXPERIENCES-START--------*/
+.timeline ul{
+    background-color: rgba(0,0,0,0.05);
+}
+
+.timeline .date{
+    border-bottom: 1px solid rgba(255,255,255, 0.1);
+}
+
+.timeline .date::after{
+    box-shadow: 0 0 0 4px #fd57bf;
+    background-color: #313534;
+}
+/*---------EXPERIENCES-END--------*/
+
+
+/*---------CONTACT-START--------*/
+
+.contact{
+    background-color: #221e3f;
+    
+}
+
+input,
+select,
+textarea{
+    outline-color: #fd57bf;
+}
+
+input[type="submit"]{
+    background-color: #fd57bf;
+    color: #eee
+}
+
+input[type="submit"]:hover{
+    color: #221e3f;
+    background-color: #ffe838;
+}
+
+
+/*---------CONTACT-END--------*/
+
+
+
+/*---------FOOTER-START--------*/
+
+.copyright{
+    background-color: #16162d;
+}
+
+.up{
+    background-color: #eee;
+}
+
+.up i{
+    color: #16162d
+}
+
+/*---------FOOTER-END--------*/
+
+
+/*---------ANIMATION-START--------*/
+
+@keyframes pulse {
+    0%{
+        box-shadow: 0 0 0 0 rgba(255, 87, 191, 0.99);
+    }
+    70%{
+        box-shadow: 0 0 0 0 rgba(255, 87, 191, 0.99);
+    }
+    100%{
+        box-shadow: 0 0 0 2rem rgba(255, 87, 191, 0);
+    }
+}
+
+/*---------ANIMATION-END--------*/
+
+
+
